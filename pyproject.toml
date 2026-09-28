@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-cpu-scheduler-round-robin-cfs-skill"
+version = "1.0.0"
+description = "Preemptive CPU scheduling simulator implementing Round-Robin with configurable quantum and metrics tracking."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "AlphaPark Team", email = "engineering@alphapark.ai"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: System :: Operating System"
+]
+
+[project.urls]
+Homepage = "https://github.com/alphaparkinc/genpark-cpu-scheduler-round-robin-cfs-skill"
+Repository = "https://github.com/alphaparkinc/genpark-cpu-scheduler-round-robin-cfs-skill.git"
+Issues = "https://github.com/alphaparkinc/genpark-cpu-scheduler-round-robin-cfs-skill/issues"
