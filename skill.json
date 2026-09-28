@@ -1,0 +1,9 @@
+{
+  "schema_version": "v1",
+  "name": "genpark-cpu-scheduler-round-robin-cfs-skill",
+  "version": "1.0.0",
+  "description": "Preemptive CPU scheduling simulator implementing Round-Robin with configurable quantum and metrics tracking.",
+  "entrypoint": "client.py",
+  "mcp_server": "mcp_server.py",
+  "category": "Service"
+}
